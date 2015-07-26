@@ -1,11 +1,8 @@
 <?php  
 
 	$person = array("jodu", "modu", "kodu", "jodu", "modu");
-	var_dump(array_count_values( $person ));
 
 	// asort($person);
-
-	// print_r($person);
 
 	// echo "<br/>";
 
@@ -29,6 +26,6 @@
 	// 	echo $key." => ".$value."<br/>";
 	// }
 
-
+	var_dump(array_count_values( $person )); // you can do this with php build-in function
 
 ?>
