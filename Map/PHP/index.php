@@ -1,32 +1,33 @@
 <?php  
 
 	$person = array("jodu", "modu", "kodu", "jodu", "modu");
+	var_dump(array_count_values( $person ));
 
 	// asort($person);
 
 	// print_r($person);
 
-	echo "<br/>";
+	// echo "<br/>";
 
-	$mymap = array();
-	foreach ($person as $value) {
-		if(isset($mymap[$value])) {
-			// echo "Yes<br/>";
-			$mymap[$value]++;
-		} else {
-			// echo "No<br/>";
-			$mymap[$value] = 1;
-		}
-	}
+	// $mymap = array();
+	// foreach ($person as $value) {
+	// 	if(isset($mymap[$value])) {
+	// 		// echo "Yes<br/>";
+	// 		$mymap[$value]++;
+	// 	} else {
+	// 		// echo "No<br/>";
+	// 		$mymap[$value] = 1;
+	// 	}
+	// }
 
 
-	echo "<br/>";
+	// echo "<br/>";
 
-	ksort($mymap);
+	// ksort($mymap);
 
-	foreach ($mymap as $key => $value) {
-		echo $key." => ".$value."<br/>";
-	}
+	// foreach ($mymap as $key => $value) {
+	// 	echo $key." => ".$value."<br/>";
+	// }
 
 
 
